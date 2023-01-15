@@ -1,0 +1,49 @@
+The phases of compiler design are: 
+1. Lexical Analysis: This phase reads the source code and converts it into tokens.
+2. Syntax Analysis: This phase reads the tokens and creates a hierarchical structure (the parse tree).
+3. Semantic Analysis: This phase checks for errors in the code and verifies that the code complies 
+                      with the language specification.
+4. Code Generation: This phase generates machine code (or assembly code) from the parse tree.
+5. Optimization: This phase optimizes the machine code to improve the performance of the compiled program.
+6. Code Output: This phase writes the compiled program to a file, such as an exe.
+
+
+---------------------------------
+
+
+Lexer Explaination:
+A lexer is a program that takes source code as input and breaks it down into tokens. 
+The tokens are then passed to the parser, which uses them to create a hierarchical structure (the parse tree). 
+The lexer works by scanning the source code character-by-character and matching the characters against a set 
+of regular expressions. When a match is found, the lexer creates a token and passes it to the parser.
+The lexer continues to scan the source code until it reaches the end of the file.
+
+
+---------------------------------
+
+
+Theoretical Principles:
+- Finite Automata: a machine that can be in one of a finite number of states.
+                   It is a mathematical abstract machine used to model computation.
+- Pushdown Automata: a finite-state machine that can use a stack to store its intermediate data. 
+                     It is used in the theory of computation to recognize context-free languages.
+
+Design Practices: 
+- Lexical analysis: This phase reads the source code and converts it into tokens.
+- Syntax analysis: This phase reads the tokens and creates a hierarchical structure (the parse tree).
+- Semantic analysis: This phase checks for errors in the code and verifies that 
+                     the code complies with the language specification.
+
+Implementation Strategies: 
+- Scanning and tokenizing: Scanning is the process of reading the source code character-by-character
+                         and matching the characters against a set of regular expressions. When a match is found,
+                         the lexer creates a token and passes it to the parser.
+- Code optimization techniques: Code optimization is the process of improving the performance of a compiled 
+                                program. This can be done by removing redundant instructions, reordering 
+                                instructions, or making other improvements to the code.
+
+
+---------------------------------
+
+
+Now to the demonstration.
